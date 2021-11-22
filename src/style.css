@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@1&family=Montserrat:wght@600&display=swap');
+
+body {
+    background-color: #f5be4a;
+    color: #2f2a22;
+    font-family: 'Montserrat', sans-seri;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25em;
+}
+a {
+    color: #2f2a22;
+    text-decoration: none;
+}
+header {
+    margin-top: 8em;
+    background-color: #f3f3f3;
+    border: #2f2a22 1px solid;
+    min-width: 20em;
+    border-radius: 3px;
+    box-shadow: 10px 10px 0 #2f2a22;
+    flex-grow: 2;
+}
+header .header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0em;
+}
+header p {
+    text-align: center;
+}
+header .name-header {
+    margin-top: 1.5em;
+    font-size: 2em;
+}
+header .description-header {
+    font-family: 'Crimson Pro', serif;
+    font-size: 0.9em;
+}
+header .up-site {
+    border-bottom: #94928e 1px solid;
+    min-width: 100%;
+}
+
+main {
+    min-width: 20em;
+    flex-grow: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main section{
+    display: flex;
+    margin-top: 2em;
+    justify-content: center;
+}
+main section div{
+    background-color: #f3f3f3;
+    border-radius: 6px;
+    border: #2f2a22 2px solid;
+    display: flex;
+    align-items: center;
+    min-height: 3.5em;
+    box-shadow: 10px 10px 0 #2f2a22;
+    transition: box-shadow 0.3s ease-in-out;
+}
+main section div:hover {
+    box-shadow: 2px 2px 4px #2f2a22;
+}
+main section div a {
+    text-align: center;
+}
+.solo-button {
+    width: 20em;
+    display: flex;
+    justify-content: center;
+}
+.double-button {
+    justify-content: space-between;
+}
+.double-button div {
+    display: flex;
+    justify-content: center;
+    min-width: 45%;
+}
+
+
