@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Waljunye</title>
+    <link rel="stylesheet" href="../src/style.css">
+    <%=
+
+    %>
+</head>
+<body>
+    <header>
+        <div class="up-site">
+            <a href="/ru">RU</a>
+            <a href="/en">EN</a>
+        </div>
+        <div class="header-text">
+            <p class="name-header"><%= content.headerTitle%></p>
+            <p class="description-header"><%= content.headerDescription %></p>
+        </div>
+
+    </header>
+    <main>
+        <section class="about double-button">
+            <div class="about-me">
+                <a href="#"><%= content.aboutText%></a>
+            </div>
+            <div class="stack">
+                <a href="#"><%= content.techStackText%></a>
+            </div>
+        </section>
+        <section class="techs">
+            <div class="resources solo-button">
+                <a href="#"><%= content.recommendedResourcesText%></a>
+            </div>
+        </section>
+        <section>
+            <div class="my-projects solo-button">
+                <a href="#"><%= content.myProjectsText%></a>
+            </div>
+        </section>
+        <section class="socials double-button">
+            <div class="contacts">
+                <a href="#"><%= content.contactMeText%></a>
+            </div>
+            <div class="my-teammates">
+                <a href="#"><%= content.myTeammatesText%></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
